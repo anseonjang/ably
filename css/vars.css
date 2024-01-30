@@ -1,0 +1,142 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --apple-com-linear-shark-nero: linear-gradient(
+    180deg,
+    rgba(29, 29, 31, 1) 0.9106261655688286%,
+    rgba(255, 255, 255, 1) 0.9106261655688286%
+  );
+  --apple-com-nero: #ffffff;
+  --apple-com-shark: #1d1d1f;
+  --apple-com-black-80: rgba(0, 0, 0, 0.8);
+  --apple-com-black-42: rgba(0, 0, 0, 0.42);
+  --apple-com-cod-gray: #1d1d1d;
+  --apple-com-white-lilac: #fbfbfd;
+  --apple-com-science-blue: #0066cc;
+  --apple-com-black: #000000;
+  --apple-com-athens-gray: #f5f5f7;
+  --apple-com-japanese-laurel: #2997ff;
+  --apple-com-mid-gray: #6e6e73;
+  --apple-com-black-16: rgba(0, 0, 0, 0.16);
+  --apple-com-black-56: rgba(0, 0, 0, 0.56);
+  --apple-com-black-72: rgba(0, 0, 0, 0.72);
+  --apple-com-black-88: rgba(0, 0, 0, 0.88);
+  --apple-com-black-48: rgba(0, 0, 0, 0.48);
+  --apple-com-woodsmoke-80: rgba(22, 22, 23, 0.8);
+  --apple-com-nero-80: rgba(255, 255, 255, 0.8);
+
+  /* Fonts */
+  --apple-com-inter-bold-14-font-family: Inter-Bold, sans-serif;
+  --apple-com-inter-bold-14-font-size: 14px;
+  --apple-com-inter-bold-14-line-height: 20px;
+  --apple-com-inter-bold-14-font-weight: 700;
+  --apple-com-inter-bold-14-font-style: normal;
+  --apple-com-inter-bold-16-33-font-family: Inter-Bold, sans-serif;
+  --apple-com-inter-bold-16-33-font-size: 16.328125px;
+  --apple-com-inter-bold-16-33-line-height: 23px;
+  --apple-com-inter-bold-16-33-font-weight: 700;
+  --apple-com-inter-bold-16-33-font-style: normal;
+  --apple-com-inter-regular-16-33-font-family: Inter-Regular, sans-serif;
+  --apple-com-inter-regular-16-33-font-size: 16.328125px;
+  --apple-com-inter-regular-16-33-line-height: 23px;
+  --apple-com-inter-regular-16-33-font-weight: 400;
+  --apple-com-inter-regular-16-33-font-style: normal;
+  --apple-com-inter-regular-16-92-font-family: Inter-Regular, sans-serif;
+  --apple-com-inter-regular-16-92-font-size: 16.921875px;
+  --apple-com-inter-regular-16-92-line-height: 23px;
+  --apple-com-inter-regular-16-92-font-weight: 400;
+  --apple-com-inter-regular-16-92-font-style: normal;
+  --apple-com-inter-regular-16-48-font-family: Inter-Regular, sans-serif;
+  --apple-com-inter-regular-16-48-font-size: 16.4765625px;
+  --apple-com-inter-regular-16-48-line-height: 23px;
+  --apple-com-inter-regular-16-48-font-weight: 400;
+  --apple-com-inter-regular-16-48-font-style: normal;
+  --apple-com-inter-regular-11-4-font-family: Inter-Regular, sans-serif;
+  --apple-com-inter-regular-11-4-font-size: 11.399999618530273px;
+  --apple-com-inter-regular-11-4-line-height: 13.8px;
+  --apple-com-inter-regular-11-4-font-weight: 400;
+  --apple-com-inter-regular-11-4-font-style: normal;
+  --apple-com-inter-regular-16-73-font-family: Inter-Regular, sans-serif;
+  --apple-com-inter-regular-16-73-font-size: 16.734375px;
+  --apple-com-inter-regular-16-73-line-height: 21px;
+  --apple-com-inter-regular-16-73-font-weight: 400;
+  --apple-com-inter-regular-16-73-font-style: normal;
+  --apple-com-inter-regular-16-77-font-family: Inter-Regular, sans-serif;
+  --apple-com-inter-regular-16-77-font-size: 16.7734375px;
+  --apple-com-inter-regular-16-77-line-height: 23px;
+  --apple-com-inter-regular-16-77-font-weight: 400;
+  --apple-com-inter-regular-16-77-font-style: normal;
+  --apple-com-inter-regular-16-87-font-family: Inter-Regular, sans-serif;
+  --apple-com-inter-regular-16-87-font-size: 16.8671875px;
+  --apple-com-inter-regular-16-87-line-height: 21px;
+  --apple-com-inter-regular-16-87-font-weight: 400;
+  --apple-com-inter-regular-16-87-font-style: normal;
+  --apple-com-inter-semi-bold-29-25-font-family: Inter-SemiBold, sans-serif;
+  --apple-com-inter-semi-bold-29-25-font-size: 29.25px;
+  --apple-com-inter-semi-bold-29-25-line-height: 36px;
+  --apple-com-inter-semi-bold-29-25-font-weight: 600;
+  --apple-com-inter-semi-bold-29-25-font-style: normal;
+  --apple-com-inter-regular-16-33-font-family: Inter-Regular, sans-serif;
+  --apple-com-inter-regular-16-33-font-size: 16.328125px;
+  --apple-com-inter-regular-16-33-line-height: 23px;
+  --apple-com-inter-regular-16-33-font-weight: 400;
+  --apple-com-inter-regular-16-33-font-style: normal;
+  --apple-com-inter-regular-16-63-font-family: Inter-Regular, sans-serif;
+  --apple-com-inter-regular-16-63-font-size: 16.625px;
+  --apple-com-inter-regular-16-63-line-height: 23px;
+  --apple-com-inter-regular-16-63-font-weight: 400;
+  --apple-com-inter-regular-16-63-font-style: normal;
+  --apple-com-inter-semi-bold-44-25-font-family: Inter-SemiBold, sans-serif;
+  --apple-com-inter-semi-bold-44-25-font-size: 44.25px;
+  --apple-com-inter-semi-bold-44-25-line-height: 52.01px;
+  --apple-com-inter-semi-bold-44-25-font-weight: 600;
+  --apple-com-inter-semi-bold-44-25-font-style: normal;
+  --apple-com-inter-regular-20-81-font-family: Inter-Regular, sans-serif;
+  --apple-com-inter-regular-20-81-font-size: 20.8125px;
+  --apple-com-inter-regular-20-81-line-height: 28px;
+  --apple-com-inter-regular-20-81-font-weight: 400;
+  --apple-com-inter-regular-20-81-font-style: normal;
+  --apple-com-inter-regular-17-37-font-family: Inter-Regular, sans-serif;
+  --apple-com-inter-regular-17-37-font-size: 17.3671875px;
+  --apple-com-inter-regular-17-37-line-height: 23px;
+  --apple-com-inter-regular-17-37-font-weight: 400;
+  --apple-com-inter-regular-17-37-font-style: normal;
+  --apple-com-inter-semi-bold-43-88-font-family: Inter-SemiBold, sans-serif;
+  --apple-com-inter-semi-bold-43-88-font-size: 43.875px;
+  --apple-com-inter-semi-bold-43-88-line-height: 52.01px;
+  --apple-com-inter-semi-bold-43-88-font-weight: 600;
+  --apple-com-inter-semi-bold-43-88-font-style: normal;
+  --apple-com-inter-regular-20-44-font-family: Inter-Regular, sans-serif;
+  --apple-com-inter-regular-20-44-font-size: 20.4375px;
+  --apple-com-inter-regular-20-44-line-height: 28px;
+  --apple-com-inter-regular-20-44-font-weight: 400;
+  --apple-com-inter-regular-20-44-font-style: normal;
+  --apple-com-inter-regular-16-63-font-family: Inter-Regular, sans-serif;
+  --apple-com-inter-regular-16-63-font-size: 16.625px;
+  --apple-com-inter-regular-16-63-line-height: 23px;
+  --apple-com-inter-regular-16-63-font-weight: 400;
+  --apple-com-inter-regular-16-63-font-style: normal;
+  --apple-com-inter-regular-11-81-font-family: Inter-Regular, sans-serif;
+  --apple-com-inter-regular-11-81-font-size: 11.8125px;
+  --apple-com-inter-regular-11-81-line-height: 16px;
+  --apple-com-inter-regular-11-81-font-weight: 400;
+  --apple-com-inter-regular-11-81-font-style: normal;
+  --apple-com-inter-regular-11-81-underline-font-family: Inter-Regular,
+    sans-serif;
+  --apple-com-inter-regular-11-81-underline-font-size: 11.8125px;
+  --apple-com-inter-regular-11-81-underline-line-height: 16px;
+  --apple-com-inter-regular-11-81-underline-font-weight: 400;
+  --apple-com-inter-regular-11-81-underline-font-style: normal;
+  --apple-com-inter-regular-12-font-family: Inter-Regular, sans-serif;
+  --apple-com-inter-regular-12-font-size: 12px;
+  --apple-com-inter-regular-12-line-height: 16px;
+  --apple-com-inter-regular-12-font-weight: 400;
+  --apple-com-inter-regular-12-font-style: normal;
+  --apple-com-inter-semi-bold-12-font-family: Inter-SemiBold, sans-serif;
+  --apple-com-inter-semi-bold-12-font-size: 12px;
+  --apple-com-inter-semi-bold-12-line-height: 16px;
+  --apple-com-inter-semi-bold-12-font-weight: 600;
+  --apple-com-inter-semi-bold-12-font-style: normal;
+
+  /* Effects */
+}
